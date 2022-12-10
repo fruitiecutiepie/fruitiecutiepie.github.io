@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/mosk" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Favourite Thing | Audrey Santoso</title>
+    <style>
+        .desc {
+            width: 40%;
+        }
+
+        .desc-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        #piano {
+            position: absolute;
+            height: 80vh;
+            top: 5em;
+            right: 5em;
+        }
+
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 1550px) {
+            #piano {
+                height: 70vh;
+            }
+        }
+
+        @media (max-width: 1440px) {
+            article {
+                display: inline-block;
+            }
+
+            #piano {
+                display: block;
+                height: 60vh;
+                top: 10em;
+                right: 5em;
+            }
+
+            .desc-box {
+                margin-top: 0;
+            }
+        }
+
+        @media (max-width: 1300px) {
+            #piano {
+                top: 16em;
+            }
+
+            .desc {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 1150px) {
+            #piano {
+                position: initial;
+            }
+
+            .desc {
+                width: 100%;
+            }
+
+            .desc-box {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (max-width: 800px) {
+            #piano {
+                height: 45vh;
+            }
+        }
+
+        @media (max-width: 500px) {
+            #piano {
+                height: 35vh;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="favplace.html">Favourite Place</a></li>
+            <a href="index.html">Home</a>
+            <a href="favthing.html">Favourite Thing</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="desc-box">
+                <h1>
+                    <a href="https://steinway.com.au/steinway-grands/" target="_blank">
+                        Steinway D-274 <br> Concert Grand
+                    </a>
+                </h1>
+                <div class="desc">
+                    <p>Every pianist's dream piano.</p>
+                    <blockquote cite="https://steinway.com.au/steinway-grands/model-d/">
+                        <p>
+                            At 274 cm (8′ 11¾″) in length, this majestic musical instrument — the pinnacle of concert
+                            grands — is the overwhelming
+                            choice of the world's greatest pianists and for anyone who demands the highest level of
+                            musical expression.
+                        </p>
+                    </blockquote>
+                    <p>Why I love it:</p>
+                    <ol>
+                        <li>It's Steinway! It's the best</li>
+                        <li>It's a concert grand! It's large</li>
+                        <li>It's a piano! It's beautiful</li>
+                        <li>I can play the piano</li>
+                        <li>I love playing the piano</li>
+                    </ol>
+                </div>
+            </div>
+            <section class="image">
+                <a href="https://steinway.com.au/steinway-grands/model-d/" target="_blank"
+                    rel="noopener noreferrer"><img id="piano" src="resources/piano.png"
+                        alt="Steinway & Sons D-274 Concert Grand Piano"></a>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
