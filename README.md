@@ -1,6 +1,6 @@
 # personal-website
 
-This project is made for a university assignment, which requirements are listed below:
+This project was made for a university assignment, which requirements are listed below:
 
 ## Scenario
 
